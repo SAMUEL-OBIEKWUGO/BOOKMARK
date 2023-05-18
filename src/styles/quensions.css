@@ -1,0 +1,32 @@
+.frequently{
+    margin-top: 9rem;
+}
+
+.btn-more{
+    background-color: blue;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 9rem;
+    height: 4rem;
+    width: 9rem;
+    border-radius: 13px;
+}
+
+@media  screen and (min-width: 1024px){
+    .frequently{
+        margin-left: 11rem;
+    }
+
+    .accordion{
+        width: 60%;
+        margin-left: 15rem;
+    }
+
+    .accordion h2{
+        margin-left: 9rem;
+    }
+
+    .btn-more{
+        margin-left: 34rem;
+    }
+}

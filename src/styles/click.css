@@ -1,0 +1,32 @@
+img-click{
+    margin-top: -3rem;
+}
+
+img{
+    margin-left: .99rem;
+    width: 20rem;
+}
+
+.tabBack{
+    background-color: blue;
+    width: 22rem;
+    height: 19rem;
+    border-bottom-right-radius: 9rem;
+    border-top-right-radius: 9rem;
+    margin-top: 6rem;
+}
+
+.book-btn{
+    margin-left: 3.5rem;
+}
+
+@media  screen and (min-width: 1024px){
+    .click{
+        display: flex;
+    }
+    .organise{
+        margin-left: 15rem;
+        margin-top: 5rem;
+    }
+}
+

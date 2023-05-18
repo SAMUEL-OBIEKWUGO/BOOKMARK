@@ -1,0 +1,58 @@
+img{
+    width: 90%;
+    margin-top: -2rem;
+    margin-bottom:2rem;
+}
+
+.back{
+    background-color: blue;
+    border-bottom-left-radius: 9rem;
+    border-top-left-radius: 9rem;
+    margin-top: 4rem;
+    width: 22em;
+    height: 21rem;
+}
+
+.bookmark{
+    text-align: center;
+}
+
+.btns{
+    margin-left: 3rem;
+}
+
+.btn-2{
+    margin-left: 2rem;
+    border: 1px solid white;
+    height: 3rem;
+    border-radius: 13px;
+    width: 10rem;
+}
+
+.btn-1{
+    border: 1px solid white;
+    height: 3rem;
+    border-radius: 13px;
+    width: 10rem;
+}
+
+@media  screen and (min-width: 1024px) {
+    .hero{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .back{
+        width: 90rem;
+    }
+
+    .manager{
+        margin-right: 20rem;
+        margin-top: 2rem;
+    }
+
+    .simple{
+        width: 100%;
+        margin-left: 1rem;
+    }
+}
