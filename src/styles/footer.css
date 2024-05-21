@@ -1,6 +1,6 @@
 .footer{
     background-color: darkblue;
-    width: 109%;
+    width: 112%;
     margin-left: -2rem;
     margin-bottom: -4rem;
 }
@@ -26,6 +26,11 @@ h4{
 }
 
 @media  screen and (min-width: 1024px){
+    .footer{
+        margin-left: -8rem;
+        width: 121%;
+    }
+
     .footer img{
         margin-left: 29rem;
     }
